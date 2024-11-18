@@ -4,12 +4,13 @@ import { Box, Heading, Text, VStack, Image } from "@chakra-ui/react";
 const ObjetivoAgenda2030 = () => {
   return (
     <Box
+      id="objetivo-agenda-2030"
       bg="teal.100"
       w={{ base: '100%', md: '90%', lg: '100%' }}
       p={6}
       shadow="md"
       mx="auto"
-      mt={10}
+      mt={{base: 10, lg: 20}}
     >
       <VStack justifyContent={'center'} alignItems={'center'} spaceY={6}>
         <Image

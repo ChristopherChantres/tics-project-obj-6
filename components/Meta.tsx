@@ -4,15 +4,15 @@ import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 const Meta = () => {
   return (
     <Box
-      bg="transparent"
-      w="100%"
-      p={8}
-      position="relative"
-      mx="auto"
-      mt={10}
-      rounded="md"
-    //   shadow="md"
-      overflow="hidden"
+        id={'meta'}
+        bg="transparent"
+        w="100%"
+        p={8}
+        position="relative"
+        mx="auto"
+        mt={10}
+        rounded="md"
+        overflow="hidden"
     >
       <VStack justifyContent={'center'} spaceY={2}>
         <Heading
@@ -26,10 +26,8 @@ const Meta = () => {
           Meta
         </Heading>
         <Box textAlign={'center'} w={'100%'}>
-            <Text fontSize="1.6rem" color="teal.100" mt={2}>
-            Tratamiento de aguas residuales recicladas, que garantice calidad y
-            suministro aunado al cumplimiento de objetivos de desarrollo
-            sostenible.
+            <Text fontSize="1.5rem" color="teal.100" mt={2}>
+            "Para 2030, aumentar de manera considerable el reciclaje y la reutilizaci&oacute;n segura de aguas residuales, garantizando su correcto tratamiento a trav&eacute;s de tecnolog&iacute;as sostenibles y fomentando su aplicaci&oacute;n en sectores agr&iacute;colas, industriales y urbanos, con el objetivo de disminuir la demanda sobre los recursos h&iacute;dricos naturales."
             </Text>
         </Box>
       </VStack>

@@ -4,16 +4,16 @@ import { Box, Heading, Text, VStack, Flex, Image } from "@chakra-ui/react";
 const TemaDeInvestigacion = () => {
   return (
     <Flex
-      bg="teal.100"
-      w="100%"
-      p={6}
-    //   rounded="md"
-      shadow="md"
-      mx="auto"
-      mt={10}
-      align="center"
-      justify="space-between"
-      direction={{ base: "column", lg: "row" }}
+        id={'tema-de-investigación'}
+        bg="teal.100"
+        w="100%"
+        p={6}
+        shadow="md"
+        mx="auto"
+        mt={10}
+        align="center"
+        justify="space-between"
+        direction={{ base: "column", lg: "row" }}
     >
       <Box flex="1">
         <VStack align="start">

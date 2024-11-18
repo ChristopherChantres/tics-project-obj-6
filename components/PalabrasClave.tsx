@@ -15,13 +15,14 @@ const PalabrasClave = () => {
 
   return (
     <Box
-      bg="teal.50"
-      position="relative"
-      w="100%"
-      p={8}
-      mt={10}
-      mx="auto"
-      shadow="md"
+        id="palabras-clave"
+        bg="teal.50"
+        position="relative"
+        w="100%"
+        p={8}
+        mt={10}
+        mx="auto"
+        shadow="md"
     >
       {/* Título */}
       <Heading
@@ -60,11 +61,27 @@ const PalabrasClave = () => {
             justifyContent="center"
             position="relative"
             _hover={{
-                bg: '#009edb',
-                color: 'white'
+                bg: 'teal.400',
+                color: 'white',
             }}
           >
-            {palabra.es + " | " + palabra.en}
+            <Box>
+            <Text
+                as="span"
+                fontWeight="bold"
+                color="teal.700"
+            >
+                {palabra.es}
+            </Text>
+            {" | "}
+            <Text
+                as="span"
+                fontWeight="bold"
+                color="teal.600"
+            >
+                {palabra.en}
+            </Text>
+            </Box>
 
             {/* Líneas que conectan los conceptos */}
             {index < palabras.length - 1 && (
