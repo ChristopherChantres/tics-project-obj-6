@@ -29,8 +29,8 @@ const PlanteamientoDelProblema = () => {
             Pregunta de Investigaci&oacute;n
           </Heading>
           <Text fontSize={'1.3rem'} color="teal.50" textAlign={'left'} fontWeight={'bold'}>
-            "¿C&oacute;mo contribuye el tratamiento de aguas residuales recicladas al suministro 
-            de agua potable y al cumplimiento de los Objetivos de Desarrollo Sostenible?"
+          &quot;¿C&oacute;mo contribuye el tratamiento de aguas residuales recicladas al suministro 
+            de agua potable y al cumplimiento de los Objetivos de Desarrollo Sostenible?&quot;
           </Text>
         </VStack>
         {/* <Spacer /> */}

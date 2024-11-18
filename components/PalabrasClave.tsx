@@ -1,7 +1,7 @@
 'use client'
 
 import React from "react";
-import { Box, Heading, Text, VStack, Flex } from "@chakra-ui/react";
+import { Box, Heading, Text, Flex } from "@chakra-ui/react";
 
 const PalabrasClave = () => {
     const palabras = [

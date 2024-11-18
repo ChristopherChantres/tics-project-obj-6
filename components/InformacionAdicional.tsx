@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Heading, Text, Image, VStack, Stack, Spacer } from "@chakra-ui/react";
+import { Box, Heading, Text, Image, VStack, Spacer } from "@chakra-ui/react";
 
 const InformacionAdicional = () => {
   // Array for the images and footers
