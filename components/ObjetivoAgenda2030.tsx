@@ -5,9 +5,8 @@ const ObjetivoAgenda2030 = () => {
   return (
     <Box
       bg="teal.100"
-      w={{ base: '200px', md: '500px', lg: '100%' }}
+      w={{ base: '100%', md: '90%', lg: '100%' }}
       p={6}
-      rounded="md"
       shadow="md"
       mx="auto"
       mt={10}
@@ -32,7 +31,7 @@ const ObjetivoAgenda2030 = () => {
           Agenda 2030 Para el Desarrollo Sostenible
         </Heading>
         <Box textAlign={'center'}>
-          <Text fontSize="lg" color="teal.700">
+          <Text fontSize="1.2rem" color="teal.700">
             Objetivo 6: Garantizar la disponibilidad de agua y su gesti&oacute;n
             sostenible y el saneamiento para todos.
           </Text>

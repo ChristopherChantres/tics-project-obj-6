@@ -3,6 +3,7 @@ import ObjetivoAgenda2030 from "@/components/ObjetivoAgenda2030";
 import Meta from "@/components/Meta";
 import TemaDeInvestigacion from "@/components/TemaDeInvestigacion";
 import PreguntaYPlanteamiento from "@/components/PreguntaYPlanteamiento";
+import PalabrasClave from "@/components/PalabrasClave";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Meta />
       <TemaDeInvestigacion />
       <PreguntaYPlanteamiento />
+      <PalabrasClave />
     </Box>
   );
 }
