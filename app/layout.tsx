@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Objective 6 Information",
+  title: "Objetivo 6 Informacion",
   description: "Creado por un equipo de la clase de TICs de primer semestre de la UDLAP",
 };
 
