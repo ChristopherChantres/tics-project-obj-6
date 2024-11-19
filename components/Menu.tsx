@@ -45,7 +45,7 @@ const Menu = () => {
       <Flex justifyContent="space-between" alignItems="center">
         {/* Brand / Logo */}
         <Heading as="h1" fontSize={'1.5rem'} fontWeight={'bold'} color="teal.900">
-          Agenda 2030
+          Agenda 2030 Objetivo 6
         </Heading>
 
         {/* Desktop Menu */}

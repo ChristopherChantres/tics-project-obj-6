@@ -9,6 +9,8 @@ import TerminosPrivacidad from "@/components/TerminosPrivacidad";
 import InformacionAdicional from "@/components/InformacionAdicional";
 import SobreNosotros from "@/components/SobreNosotros";
 import Menu from "@/components/Menu";
+import ListadoRecursosBibliograficos from "@/components/ListadoRecursosBibliograficos";
+import EstrategiasDeBusqueda from "@/components/EstrategiasDeBusqueda";
 
 export default function Home() {
   return (
@@ -24,6 +26,8 @@ export default function Home() {
       <TemaDeInvestigacion />
       <PreguntaYPlanteamiento />
       <PalabrasClave />
+      <EstrategiasDeBusqueda />
+      <ListadoRecursosBibliograficos />
       <Conclusion />
       <TerminosPrivacidad />
       <SobreNosotros />
